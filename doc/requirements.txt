@@ -1,0 +1,3 @@
+sphinx~=3.0
+-e git+http://github.com/readthedocs/sphinx_rtd_theme.git@f886258#egg=sphinx_rtd_theme
+-e git+http://github.com/pygments/pygments.git#egg=pygments

@@ -29,6 +29,12 @@ setup(
         "pyvcd~=0.2.0", # for nmigen.pysim
         "Jinja2~=2.11", # for nmigen.build
     ],
+    extras_require={
+        "doc": [
+            "sphinx",
+            "sphinx-rtd-theme",
+        ]
+    },
     packages=find_packages(),
     entry_points={
         "console_scripts": [

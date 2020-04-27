@@ -13,6 +13,6 @@ __pycache__/
 *.gtkw
 
 # misc user-created
-*.il
-*.v
+/*.il
+/*.v
 /build
